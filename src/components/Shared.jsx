@@ -30,6 +30,7 @@ export function Nav() {
         </button>
         <div className={`links${open ? ' open' : ''}`} id="navlinks">
           <NavLink to="/bill">The bill</NavLink>
+          <NavLink to="/current-law">Current law</NavLink>
           <NavLink to="/funding">Funding</NavLink>
           <NavLink to="/employers">Employers</NavLink>
           <NavLink to="/faq">FAQ</NavLink>
@@ -119,6 +120,7 @@ export function Footer() {
             <h4>The proposal</h4>
             <ul>
               <li><Link to="/bill">The bill, title by title</Link></li>
+              <li><Link to="/current-law">AI-layoff laws today</Link></li>
               <li><Link to="/funding">How it pays for itself</Link></li>
               <li><Link to="/employers">What employers get</Link></li>
               <li><Link to="/faq">Questions</Link></li>
@@ -133,6 +135,8 @@ export function Footer() {
               <li><a href="https://www.warner.senate.gov/public/index.cfm/2025/11/warner-hawley-to-introduce-bipartisan-legislation-to-track-number-of-jobs-lost-to-ai">Warner–Hawley Clarity Act</a></li>
               <li><a href="https://policyrisk.com/behind-the-curtain/legislation/S3339">AI Workforce PREPARE Act</a></li>
               <li><a href="https://www.governance.ai/research-paper/how-congress-is-approaching-ais-labor-market-impacts">GovAI: Congress and AI's labor impacts</a></li>
+              <li><a href="https://natlawreview.com/article/new-york-warn-act-no-ai-related-layoffs-reported-first-year-adding-ai-related">NY WARN: no AI layoffs reported in year one</a></li>
+              <li><a href="https://www.fisherphillips.com/en/insights/insights/california-employers-will-soon-need-to-say-when-ai-causes-a-mass-layoff">California SB 951</a></li>
             </ul>
           </div>
         </div>

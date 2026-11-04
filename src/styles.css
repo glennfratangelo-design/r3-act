@@ -230,3 +230,7 @@ footer.foot li { margin: 6px 0; }
 .brand b { white-space: nowrap; }
 @media (max-width: 860px) { .brand small { display: none; } }
 @media (max-width: 420px) { .hero h1 { font-size: 15.5vw; } }
+.lawtable { min-width: 820px; }
+.lawtable td { font-size: 15.5px; line-height: 1.5; }
+.lawtable td:first-child { width: 150px; }
+.lawtable td:nth-child(2) { width: 150px; font-size: 14.5px; }

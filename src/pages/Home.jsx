@@ -33,7 +33,7 @@ export default function Home() {
           <div className="measure">
             <h2>The problem</h2>
             <p>Large, profitable companies are cutting staff and crediting AI. The savings go to margins and stock buybacks. The costs go to workers, their families and the public safety net.</p>
-            <p>The program built for this kind of job loss, Trade Adjustment Assistance, expired in 2022 and was never renewed. Bills now in Congress would <em>count</em> AI layoffs. None would require companies to do anything about them.</p>
+            <p>The program built for this kind of job loss, Trade Adjustment Assistance, expired in 2022 and was never renewed. New York, California and Connecticut now make companies <em>disclose</em> AI layoffs, and bills in Congress would do the same. None requires companies to do anything about them. In New York, not one employer checked the AI box in the first year. <Link to="/current-law">See the law today →</Link></p>
             <p>Meanwhile, contractors turn down work because they can't hire electricians, HVAC technicians, welders and lineworkers. Laid-off office workers have no paid path into those jobs.</p>
           </div>
         </div>

@@ -1,13 +1,19 @@
+import { Link } from 'react-router-dom'
 import { PageHead, SignBand } from '../components/Shared.jsx'
 
 const titles = [
-  { id: 'coverage', n: 'Title I', name: 'Coverage and definitions', lead: 'Only large, profitable employers are covered, and only layoffs where AI is a substantial factor.', items: [
+  { id: 'coverage', n: 'Title I', name: 'Coverage and the AI-layoff test', lead: 'Only large, profitable employers are covered, and only layoffs caused in whole or in substantial part by AI. That is judged by evidence, not a checkbox.', items: [
     ['Covered employer', '1,000 or more U.S. employees, counted across the whole corporate group so a company can\'t split into smaller entities to avoid it.'],
     ['Profitable', 'Positive pre-tax income in either of the two prior fiscal years, or any stock buyback or dividend increase in the prior 12 months.'],
-    ['AI-attributable separation', 'A layoff, position elimination, cut in hours of more than 50%, or non-renewal of a long-term contractor, where AI or automation is a substantial factor.'],
-    ['Presumption', 'A layoff is presumed AI-related if it falls within 18 months of deploying AI in the same function, or if the company publicly credited AI with the savings. The company can rebut it with evidence.'],
+    ['Covered separation', 'A layoff, position elimination, cut in hours of more than 50%, or non-renewal of a long-term contractor. Also covered: permanently stopping hiring for a role because AI now does the work, an idea taken from California\'s SB 951.'],
+    ['The standard', 'AI caused the layoff "in whole or in substantial part," the same test California adopted and the bipartisan Great American AI Act draft uses.'],
+    ['Five indicators', 'AI is presumed a substantial factor if any one applies: the company credited AI with savings in that work; AI was deployed there within 18 months before or 6 months after; AI now does 30% or more of the jobs\' core duties; the role isn\'t refilled; or the company named AI in a state layoff filing.'],
+    ['Rebuttal', 'A company can rebut the presumption with documented evidence the layoff would have happened anyway, such as a site closure, a lost contract or a real drop in demand.'],
+    ['Mixed causes', 'The company files a good-faith estimate of the share of jobs due to AI. Duties and fees apply to that share.'],
+    ['Officer certification', 'A senior officer certifies the determination under penalty of perjury, as executives already do for financial statements.'],
     ['Anti-evasion', 'Rolling layoffs are added up over 12 months. Reclassifying employees as contractors, or moving the work offshore after AI is deployed, counts as a layoff.'],
     ['Exempt', 'Companies in bankruptcy or genuine financial distress, firings for cause, and voluntary retirements.'],
+    ['State law', 'R3 is a federal floor. States can keep stronger rules, such as New Jersey\'s mandatory severance, which counts toward R3\'s severance floor. One R3 filing covers what the New York, California and Connecticut notices ask for.'],
   ]},
   { id: 'duty', n: 'Title II', name: 'The duty to retain, retrain and redeploy', lead: 'Before an AI layoff, a covered company works through these steps in order and documents each one.', items: [
     ['Notice', '120 days to workers, the state workforce board and the Department of Labor, naming the AI system and the work it replaces.'],
@@ -72,7 +78,7 @@ export default function Bill() {
   return (
     <>
       <PageHead kicker="The proposal · ten titles" title="The bill, title by title">
-        Every provision of the Retain, Retrain, Redeploy Act in plain English. Dollar amounts and rates are starting points for modeling and will be refined with legislative counsel.
+        Every provision of the Retain, Retrain, Redeploy Act in plain English. For how it fits with today's state and federal AI-layoff laws, see <Link to="/current-law">current law</Link>. Dollar amounts and rates are starting points for modeling and will be refined with legislative counsel.
       </PageHead>
       <div className="wrap bill-layout">
         <aside className="toc" aria-label="Titles">
