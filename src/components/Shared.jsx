@@ -121,6 +121,7 @@ export function Footer() {
             <ul>
               <li><Link to="/bill">The bill, title by title</Link></li>
               <li><Link to="/current-law">AI-layoff laws today</Link></li>
+              <li><Link to="/partners">Partner kit for organizations</Link></li>
               <li><Link to="/funding">How it pays for itself</Link></li>
               <li><Link to="/employers">What employers get</Link></li>
               <li><Link to="/faq">Questions</Link></li>

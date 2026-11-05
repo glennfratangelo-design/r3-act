@@ -7,6 +7,7 @@ import Employers from './pages/Employers.jsx'
 import Act from './pages/Act.jsx'
 import Faq from './pages/Faq.jsx'
 import CurrentLaw from './pages/CurrentLaw.jsx'
+import Partners from './pages/Partners.jsx'
 
 function NotFound() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/act" element={<Act />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/current-law" element={<CurrentLaw />} />
+          <Route path="/partners" element={<Partners />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
