@@ -79,11 +79,15 @@ export function SignBand() {
 
 export function CostBars() {
   return (
-    <div className="compare" role="img" aria-label="Net cost to the company for one $120,000 worker with 10 years of service: laying off costs $106,000; retaining and retraining for six months costs $61,000.">
+    <div className="compare" role="img" aria-label="Net cost to the company for one $120,000 worker with 10 years of service: laying off with no plan costs $106,000; laying off with a certified transition plan costs $68,500; retaining and retraining for six months costs $61,000.">
       <div className="mono muted">Net cost to the company · one $120,000 worker, 10 years' service</div>
       <div className="bar layoff">
-        <div className="name">Lay off<small>severance + displacement fee</small></div>
+        <div className="name">Lay off, no plan<small>severance + backstop fee</small></div>
         <div className="track"><div className="fill">$106,000</div></div>
+      </div>
+      <div className="bar harbor">
+        <div className="name">Lay off with a plan<small>severance + Retraining Account, less credit</small></div>
+        <div className="track"><div className="fill">$68,500</div></div>
       </div>
       <div className="bar retain">
         <div className="name">Retain and retrain<small>6 months' wages + training, less credit</small></div>

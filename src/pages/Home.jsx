@@ -47,7 +47,7 @@ export default function Home() {
             <p className="measure">It applies only to employers with 1,000 or more U.S. employees that are profitable or buying back stock, and only to layoffs where AI is a substantial factor.</p>
             <ol className="provisions">
               <li><div><h3>Try first</h3><p>120 days' notice. Laid-off workers get first call on open internal jobs at 90% or more of their pay, and up to 12 months of company-paid retraining.</p></div></li>
-              <li><div><h3>Pay for who you let go</h3><p>A displacement fee for each worker not redeployed, higher when layoffs come alongside stock buybacks. Every dollar spent retraining lowers it.</p></div></li>
+              <li><div><h3>Pay for who you let go</h3><p>Fund a Retraining Account for every worker let go, worth a quarter of their pay. Skip that, and a backstop fee costs about twice as much, more with stock buybacks.</p></div></li>
               <li><div><h3>Paid transitions</h3><p>Up to 24 months of income support while retraining, wage insurance if the next job pays less, and help with health coverage.</p></div></li>
               <li><div><h3>Build the trades</h3><p>Paid mid-career apprenticeships, wage support for employers who take on apprentices, and more instructors and training seats in shortage occupations.</p></div></li>
               <li><div><h3>Back new businesses</h3><p>Workers can take their support as startup money instead, with SBA-backed loans and matched investment.</p></div></li>
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="label mono">Sec. 3</div>
           <div>
             <h2>Keeping people is cheaper</h2>
-            <p className="measure">A tax credit covers 40% of pay while a worker retrains on the job, up to $25,000. Layoff fees go into a dedicated trust fund that pays its own way and can't be raided.</p>
+            <p className="measure">A tax credit covers 40% of pay while a worker retrains on the job, up to $25,000. A certified transition plan costs less than a layoff with no plan, and nothing in the act taxes AI investment.</p>
             <CostBars />
             <p style={{ marginTop: 20 }}><Link to="/employers">See what employers get →</Link> · <Link to="/funding">How it pays for itself →</Link></p>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
           <div className="label mono">Sec. 5</div>
           <div className="measure">
             <h2>Built for both parties</h2>
-            <p><strong>For Republicans:</strong> it is pro-worker and pro-trades, uses no general taxpayer money, and pays employers to keep their people. Companies can cut the fee to zero by retraining.</p>
+            <p><strong>For Republicans:</strong> it is pro-worker and pro-trades, uses no general taxpayer money, and pays employers to keep their people. Companies with a certified transition plan pay no fee, and AI investment is never taxed.</p>
             <p><strong>For Democrats:</strong> real protections for workers, accountability for companies profiting from layoffs, and a path into union apprenticeships and good jobs.</p>
             <p>It builds on bipartisan bills already in Congress that would track AI layoffs. Those bills measure the problem. R3 acts on it.</p>
           </div>

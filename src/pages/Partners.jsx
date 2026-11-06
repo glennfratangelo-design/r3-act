@@ -40,7 +40,7 @@ export default function Partners() {
                 <p><strong>Trades and apprenticeship programs</strong> get a funded pipeline of motivated adults, with wages paid during training.</p>
                 <p><strong>Employers and business groups</strong> get a retrain-first approach that doesn't restrict AI adoption. Only profitable companies with 1,000+ employees are covered, and smaller firms get hiring credits.</p>
                 <p><strong>Workers and unions</strong> get a real path to the next job instead of a notice and a severance check.</p>
-                <p><strong>Taxpayers</strong> pay nothing. The fund comes from a fee on AI layoffs where companies chose not to retrain.</p>
+                <p><strong>Taxpayers</strong> pay nothing new. Companies fund their own workers' retraining, a backstop fee applies only when they skip it, and AI investment is never taxed.</p>
               </div>
             </li>
             <li>
@@ -60,7 +60,7 @@ export default function Partners() {
                 <h2>Newsletter blurb</h2>
                 <CopyBox label="About 110 words" text={`The R3 Act: Retain, Retrain, Redeploy
 
-As AI changes jobs, a new citizen proposal asks large, profitable companies to keep people working instead of just issuing layoff notices. Before an AI layoff, companies with 1,000+ employees would offer affected workers open roles first and fund retraining, with tax credits that make retaining people cheaper than cutting them. Workers who do leave would be paid while they train for the trades and other in-demand jobs, or get capital to start a business. It's funded by a fee on AI layoffs, not taxpayers.
+As AI changes jobs, a new citizen proposal asks large, profitable companies to keep people working instead of just issuing layoff notices. Before an AI layoff, companies with 1,000+ employees would offer affected workers open roles first and fund retraining, with tax credits that make retaining people cheaper than cutting them. Workers who do leave would be paid while they train for the trades and other in-demand jobs, or get capital to start a business. Companies pay for the transition, not taxpayers, and AI investment is never taxed.
 
 Read the plan: ${SITE}
 Add your name: ${PETITION}`} />
@@ -69,7 +69,7 @@ Add your name: ${PETITION}`} />
             <li>
               <div className="measure">
                 <h2>Social posts</h2>
-                <CopyBox label="Short post" text={`AI should make American workers stronger, not leave them behind. The R3 Act asks big, profitable companies to Retain, Retrain and Redeploy workers before AI layoffs, funded by a layoff fee, not taxpayers. Sign: ${PETITION}`} />
+                <CopyBox label="Short post" text={`AI should make American workers stronger, not leave them behind. The R3 Act asks big, profitable companies to Retain, Retrain and Redeploy workers before AI layoffs, paid for by the companies, not taxpayers. Sign: ${PETITION}`} />
                 <CopyBox label="Trades angle" text={`We need electricians, HVAC techs, welders and lineworkers. Millions of workers are about to need a new path. The R3 Act connects the two, with paid retraining funded by companies that lay off for AI. Sign: ${PETITION}`} />
                 <CopyBox label="Business angle" text={`Pro-tech, pro-business, pro-work: the R3 Act doesn't slow AI down. It makes retraining cheaper than layoffs for the largest companies and gives smaller employers a pipeline of trained workers. ${SITE}`} />
               </div>

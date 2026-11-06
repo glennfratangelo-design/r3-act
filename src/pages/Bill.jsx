@@ -20,18 +20,20 @@ const titles = [
     ['Redeploy', 'Affected workers get first call on open internal jobs, at no less than 90% of prior pay for 12 months.'],
     ['Retrain', 'Up to 12 months of company-paid training on paid time, including training to run or oversee the AI system itself.'],
     ['Transition package', 'For anyone not placed: severance of two weeks per year of service (minimum eight weeks), 12 months of subsidized health coverage, and automatic enrollment in Title V support.'],
-    ['Safe harbor', 'A company that redeploys or places 60% or more of affected workers pays half the fee rate.'],
+    ['Certified transition plan (safe harbor)', 'A company that offers internal roles first, follows the steps above, and funds a Retraining Account for every worker it lets go owes no backstop fee. The safe harbor is not free: the company pays for its own workers\' transition directly.'],
+    ['Retraining Account', '25% of the worker\'s prior-year pay, at least $15,000 and no more than $50,000, paid on top of severance. It belongs to the worker and covers approved training, income support while training, or startup costs.'],
   ]},
-  { id: 'fee', n: 'Title III', name: 'The displacement fee', lead: 'The company that captures the savings pays for the transition of each worker it lets go.', items: [
-    ['Base fee', '50% of the worker\'s prior-year pay, capped at $100,000 per worker.'],
-    ['Safe-harbor rate', '25% when 60% or more of affected workers are redeployed.'],
+  { id: 'fee', n: 'Title III', name: 'The backstop fee', lead: 'The fee applies only when a company lays people off without a certified transition plan. It is set at about twice what the plan would have cost, so skipping the plan is always the more expensive choice.', items: [
+    ['Base fee', '50% of the worker\'s prior-year pay, capped at $100,000 per worker, for each worker let go without a certified plan.'],
     ['Buyback surcharge', '25 points more when the company buys back stock within 12 months of the layoffs.'],
     ['Repeat surcharge', '15 points more for a second covered event within 24 months.'],
-    ['Retraining credit', 'Every dollar a company spends retraining workers, or sponsoring apprentices, comes off the fee, up to 100%.'],
+    ['Partial credit', 'Money a company spends retraining workers or sponsoring apprentices outside a certified plan comes off the fee, up to half of it. The full route out of the fee is the certified plan.'],
+    ['Never a tax on AI', 'Nothing in the act taxes AI investment, research, computing or software. The only cost arises from letting workers go without a transition plan.'],
   ]},
-  { id: 'fund', n: 'Title IV', name: 'Workforce Transition Trust Fund', lead: 'Fees go into a dedicated fund, spent through regional partnerships of employers, unions, community colleges and trade groups.', items: [
+  { id: 'fund', n: 'Title IV', name: 'Workforce Transition Trust Fund', lead: 'Backstop fees and coordinated workforce dollars go into a dedicated fund, spent through regional partnerships of employers, unions, community colleges and trade groups.', items: [
     ['Allocation', 'Income support 40%, training 30%, startup capital 15%, trades capacity 10%, data and administration 5%.'],
     ['Regional compacts', 'Local employers, unions, colleges and the state workforce board design training and certify providers, through the existing workforce system.'],
+    ['Existing workforce money', 'Federal dislocated-worker funds under WIOA and the H-1B skills-training grants already paid for by visa fees are coordinated through the same regional compacts. No new tax.'],
     ['Matching', 'Private money put into a compact is matched 1:1.'],
     ['Pay for results', 'Training providers are paid in part only when trainees are placed and still employed a year later.'],
   ]},
@@ -61,13 +63,15 @@ const titles = [
     ['Workers\' rights', 'Workers can sue for back pay if the steps were skipped, and whistleblowers are protected.'],
     ['Review', 'A government evaluation in year three, and rates reviewed every five years.'],
   ]},
-  { id: 'self-funding', n: 'Title IX', name: 'Self-funding', lead: 'The program runs on fees and on money it earns back, not general tax revenue.', items: [
+  { id: 'self-funding', n: 'Title IX', name: 'Self-funding', lead: 'The program runs on company-funded Retraining Accounts, backstop fees, coordinated workforce dollars and money it earns back, not new general tax revenue.', items: [
+    ['Compliance pays its own way', 'When companies use certified plans, they pay for their own workers\' retraining directly through Retraining Accounts, so the fund carries less. When they skip the plan, the backstop fee covers the cost.'],
     ['Reserve', 'The fund keeps 18 months of spending in reserve. The fee rate adjusts automatically if the reserve falls below 12 months.'],
     ['Startup bridge', 'Treasury lends start-up money, repaid with interest from fee revenue within seven years.'],
     ['Firewall', 'The money can\'t be moved to other programs and doesn\'t depend on annual appropriations.'],
   ]},
-  { id: 'employers', n: 'Title X', name: 'Employer incentives', lead: 'Keeping a worker through retraining should cost a company clearly less than laying them off.', items: [
-    ['Retention credit', '40% of wages paid while a worker retrains on the job, up to $25,000 per worker for up to 12 months.'],
+  { id: 'employers', n: 'Title X', name: 'Employer incentives', lead: 'Keeping a worker should be the cheapest option, a certified transition plan the next cheapest, and a layoff with no plan the most expensive.', items: [
+    ['Retention credit', '40% of wages paid while a worker retrains on the job, up to $25,000 per worker for up to 12 months. This is the largest credit in the act, because keeping people is the outcome it wants most.'],
+    ['Retraining Account credit', '25% of what a company puts into Retraining Accounts under a certified plan.'],
     ['Tax-free training', 'The tax-free limit on employer-paid education rises to $25,000 for workers in a certified retraining plan.'],
     ['Contracting', 'Certified companies get extra evaluation points on federal AI and cloud contracts.'],
     ['Good-faith presumption', 'A certified redeployment plan counts as evidence of good faith in layoff litigation.'],

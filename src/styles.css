@@ -133,6 +133,7 @@ section.s { padding: 60px 0; border-bottom: 1px solid var(--rule); }
 .bar .fill { height: 100%; display: flex; align-items: center; justify-content: flex-end; padding: 0 14px; font-family: var(--display); font-weight: 800; font-size: 26px; font-variant-numeric: tabular-nums; transform-origin: left; animation: grow .8s .2s cubic-bezier(.2,.7,.2,1) both; }
 @keyframes grow { from { transform: scaleX(.15); } to { transform: scaleX(1); } }
 .bar.layoff .fill { width: 100%; background: var(--ink); color: var(--paper); }
+.bar.harbor .fill { width: 64.6%; background: var(--muted); color: var(--paper); }
 .bar.retain .fill { width: 57.5%; background: var(--hivis); color: var(--hivis-ink); }
 .compare .note { font-size: 15px; color: var(--muted); margin: 14px 0 0; }
 @media (max-width: 640px) { .bar { grid-template-columns: 1fr; gap: 6px; } }
